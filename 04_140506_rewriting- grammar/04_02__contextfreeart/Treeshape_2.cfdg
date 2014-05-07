@@ -8,7 +8,7 @@ rule bigtree {
 
 
 rule tree {
-    CIRCLE {  }
+    CIRCLE {  } //unfortunatley I couldn't figure out how to get rid of the second circle
     tree {y 0.6  s 0.98 }
 }
 rule tree .1 { 
