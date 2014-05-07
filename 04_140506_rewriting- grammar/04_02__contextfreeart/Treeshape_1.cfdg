@@ -1,0 +1,28 @@
+startshape bigtree
+ 
+rule bigtree { 
+   moss {y 20 s 20  hue 100 sat 0.6 b 0.8 }   
+   tree { }
+   bigtree {s 0.1 }
+   }
+
+rule tree .1 { 
+    tree { flip 90 } 
+}
+rule tree .1 { 
+    tree { r 10 } 
+    tree { r -30 s .6}
+}
+
+rule tree .1 { 
+    tree { r 10 } 
+    tree { r -20 s .2}
+}
+
+rule moss {
+   CIRCLE { } 
+}
+rule tree {
+    CIRCLE {s 1  } // stammdicke
+    tree {y 0.6  s 0.98 }
+}
